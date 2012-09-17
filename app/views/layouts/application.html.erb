@@ -6,10 +6,11 @@
 </head>
 <body>
 	<div class="container">
-      <%= render 'layouts/header' %>
-      <section class="round">
-        <%= yield %>
-      </section>
+		<%= render 'layouts/header' %>
+		<%= render 'layouts/menu' %>
+      	<section class="round content">
+        		<%= yield %>
+      	</section>
     </div>
 </body>
 </html>

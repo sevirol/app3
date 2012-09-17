@@ -2,6 +2,18 @@
   width: 710px;
 }
 
+.leftmenu {
+  width: 10%;
+  float: left;
+}
+
+.content {
+  width: 80%;
+  float: left; 
+  margin-left: 10px;
+  margin-right: auto;
+}
+
 body {
   background: #cff;
 }
@@ -16,7 +28,7 @@ header img {
 }
 
 section {
-  margin-top: 1em;
+  /*margin-top: 1em;*/
   font-size: 120%;
   padding: 20px;
   background: #fff;
